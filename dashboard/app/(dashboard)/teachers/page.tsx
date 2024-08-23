@@ -1,6 +1,6 @@
 import React from "react";
-const TeacherPage = () => {
+const TeachersPage = () => {
     return <div> TeacherPage</div>
 }
 
-export default TeacherPage;
+export default TeachersPage;

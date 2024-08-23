@@ -1,5 +1,5 @@
 import React from "react"
-const ParentPage = () => {
+const ParentsPage = () => {
     return <div>parent page</div>
 }
-export default ParentPage;
+export default ParentsPage;
