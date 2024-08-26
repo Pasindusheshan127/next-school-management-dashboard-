@@ -3,7 +3,7 @@ import React from 'react'
 
 const UserCard = ({type}:{type:string}) => {
   return (
-    <div className='rounded-2xl odd:bg-systemPurple even:bg-systemYellow p-4 flex-1 min-w-[130px]'>
+    <div className='rounded-2xl odd:bg-systemPurple even:bg-systemYellow p-4 flex-1 min-w-[130px] border border-sky-500'>
         {/* top */}
         <div className='flex justify-between items-center'>
          <span className='text-[10px] bg-white px-2 py-1 rounded-full text-green-600'>2024/08</span>
