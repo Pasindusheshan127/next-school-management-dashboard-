@@ -41,7 +41,7 @@ const columns = [
   ];
 
 
-const StudentsListpage = () => {
+const ClassesListpage = () => {
 
     const renderRow = (item: Class) => (
         <tr
@@ -91,4 +91,4 @@ const StudentsListpage = () => {
   )
 }
 
-export default StudentsListpage
+export default ClassesListpage
