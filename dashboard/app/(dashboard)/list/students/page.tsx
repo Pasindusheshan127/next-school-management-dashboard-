@@ -66,7 +66,7 @@ const StudentsListpage = () => {
       <td className='hidden md:table-cell'>{item.phone}</td>
       <td className='hidden md:table-cell'>{item.address}</td>
       <td className=''>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-2">
           <Link href={`/list/teachers/${item.id}`}>
            <button className='w-7 h-7 flex items-center justify-center rounded-full bg-systemSky'>
              <Image src="/view.png" alt='' width={16} height={16} />

@@ -781,7 +781,7 @@ export const resultsData = [
 export const eventsData = [
   {
     id: 1,
-    title: "Lake Trip",
+    title: "Trip to Kandy Lake",
     class: "1A",
     date: "2025-01-01",
     startTime: "10:00",
@@ -789,7 +789,7 @@ export const eventsData = [
   },
   {
     id: 2,
-    title: "Picnic",
+    title: "Galle Picnic",
     class: "2A",
     date: "2025-01-01",
     startTime: "10:00",
@@ -797,7 +797,7 @@ export const eventsData = [
   },
   {
     id: 3,
-    title: "Beach Trip",
+    title: "Beach Trip to Negombo",
     class: "3A",
     date: "2025-01-01",
     startTime: "10:00",
@@ -805,7 +805,7 @@ export const eventsData = [
   },
   {
     id: 4,
-    title: "Museum Trip",
+    title: "National Museum Visit",
     class: "4A",
     date: "2025-01-01",
     startTime: "10:00",
@@ -813,7 +813,7 @@ export const eventsData = [
   },
   {
     id: 5,
-    title: "Music Concert",
+    title: "Colombo Music Concert",
     class: "5A",
     date: "2025-01-01",
     startTime: "10:00",
@@ -821,7 +821,7 @@ export const eventsData = [
   },
   {
     id: 6,
-    title: "Magician Show",
+    title: "Magic Show in Kandy",
     class: "1B",
     date: "2025-01-01",
     startTime: "10:00",
@@ -829,7 +829,7 @@ export const eventsData = [
   },
   {
     id: 7,
-    title: "Lake Trip",
+    title: "Trip to Nuwara Eliya Lake",
     class: "2B",
     date: "2025-01-01",
     startTime: "10:00",
@@ -837,7 +837,7 @@ export const eventsData = [
   },
   {
     id: 8,
-    title: "Cycling Race",
+    title: "Cycling Race in Colombo",
     class: "3B",
     date: "2025-01-01",
     startTime: "10:00",
@@ -845,7 +845,7 @@ export const eventsData = [
   },
   {
     id: 9,
-    title: "Art Exhibition",
+    title: "Art Exhibition in Galle",
     class: "4B",
     date: "2025-01-01",
     startTime: "10:00",
@@ -853,13 +853,14 @@ export const eventsData = [
   },
   {
     id: 10,
-    title: "Sports Tournament",
+    title: "National Sports Tournament",
     class: "5B",
     date: "2025-01-01",
     startTime: "10:00",
     endTime: "11:00",
   },
 ];
+
 
 export const announcementsData = [
   {
@@ -882,47 +883,48 @@ export const announcementsData = [
   },
   {
     id: 4,
-    title: "About 6A Math Test",
+    title: "About 6A Sinhala Test",
     class: "6A",
     date: "2025-01-01",
   },
   {
     id: 5,
-    title: "About 8C Math Test",
+    title: "About 8C Science Test",
     class: "8C",
     date: "2025-01-01",
   },
   {
     id: 6,
-    title: "About 2A Math Test",
+    title: "About 2A Tamil Test",
     class: "2A",
     date: "2025-01-01",
   },
   {
     id: 7,
-    title: "About 4C Math Test",
+    title: "About 4C History Test",
     class: "4C",
     date: "2025-01-01",
   },
   {
     id: 8,
-    title: "About 4B Math Test",
+    title: "About 4B Geography Test",
     class: "4B",
     date: "2025-01-01",
   },
   {
     id: 9,
-    title: "About 3C Math Test",
+    title: "About 3C Science Test",
     class: "3C",
     date: "2025-01-01",
   },
   {
     id: 10,
-    title: "About 1C Math Test",
+    title: "About 1C Music Test",
     class: "1C",
     date: "2025-01-01",
   },
 ];
+
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
