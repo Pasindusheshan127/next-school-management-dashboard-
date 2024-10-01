@@ -1,3 +1,4 @@
+
 import FormModel from '@/components/FormModel'
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
@@ -73,7 +74,7 @@ const StudentsListpage = () => {
              <Image src="/view.png" alt='' width={16} height={16} />
            </button>
            {role=="admin" && 
-              <FormModel table='teacher' type='delete' />
+              <FormModel table='student' type='delete' id={item.id}/>
            }
          
         </div>
