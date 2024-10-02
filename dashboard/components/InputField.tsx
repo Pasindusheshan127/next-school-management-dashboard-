@@ -19,7 +19,7 @@ const InputField = (
 
   return (
     <div className="flex flex-col gap-2 w-full md:w-1/4">
-          <label className="text-xs text-gary-500">Username</label>
+          <label className="text-xs text-gary-500">{lable}</label>
           <input 
           type="text" {...register(name)} 
           className="ring-[1.5] ring-gray-300 p-2 rounded-md text-sm border border-black w-full" 
@@ -27,9 +27,6 @@ const InputField = (
           defaultValue={defaultValue}
           />
           {error?.message && <p className="text-xs text-red-400">{error?.message.toString()}</p>}
-          <span className="text-xs text-gary-400 font-medium">
-            Personal Information
-          </span>
       </div>
   )
 }
